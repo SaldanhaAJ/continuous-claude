@@ -1,0 +1,31 @@
+# prompt.txt — Your project goal
+#
+# Copy this file to prompt.txt and replace the content below with your own goal.
+# This file is excluded from git (.gitignore) because it is project-specific.
+# The entire contents are injected into every Claude iteration as the OVERALL GOAL.
+#
+# Tips:
+# - Be specific about what needs to be built and why
+# - Include any architectural constraints or patterns to follow
+# - Reference existing code or projects Claude should follow as examples
+# - Include acceptance criteria if known
+# -----------------------------------------------------------------------
+
+## Goal
+
+Briefly describe what you want to build. Example:
+
+Add a recurring background job that reads records from a CSV file, validates them,
+and upserts into the database. The job should run on a configurable schedule,
+archive processed files, and follow the same patterns as the existing ImportJob.
+
+## Constraints
+
+- List any files or areas that must not be modified
+- List naming conventions or coding standards to follow
+- List any third-party libraries already in use that should be reused
+
+## Reference
+
+- Point to any existing code that should be used as a pattern
+- e.g. C:\Repos\MyProject\src\Jobs\ExistingJob.cs

@@ -1,0 +1,13 @@
+# Your project-specific goal file — create your own from prompt.txt.example
+prompt.txt
+
+# Worklog output — generated per project, not part of the tool
+claude-worklog/
+
+# Shared discovery memory — accumulates on your machine over time
+_memory/
+
+# Backup and working copies
+*.bak
+*- Copy*
+*-Copy*
